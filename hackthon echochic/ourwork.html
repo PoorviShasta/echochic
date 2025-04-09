@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>We Made</title>
+  <style>
+    *{
+      box-sizing:border-box;  
+    }
+    body{
+        margin: 0;
+        background: gray;
+    }
+    .grid-container {
+        max-width: 1200px;
+        margin: auto;
+        background: #f2f2f2;
+        overflow: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        grid-gap: 10px; 
+    }
+    .grid-item{
+        border: 1px solid #ccc;
+    }
+    .grid-item img{
+        width: 100%;
+        height: auto;      
+    }
+    .desc{
+        padding: 15px;
+        text-align: center;
+    }
+    footer{
+        padding: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        background: #594848;
+        color: white;
+        font-family: Arial;
+        letter-spacing: 1px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="grid-item">
+      <img src="images/girid1.jpg" alt="">
+          <div class="desc">Less plastic. More life</div>
+    </div>
+    <div class="grid-item">
+      <img src="images/grid2.jpg" alt="">
+           <div class="desc">Plastic will make our end drastic!</div>
+    </div>
+    <div class="grid-item">
+      <img src="images/grid3.jpg" alt="">
+         <div class="desc">Go green, plastic is obscene!</div>
+    </div>
+    <div class="grid-item">
+        <img src="images/grid4.jpg" alt="">
+           <div class="desc">Keep the sea plastic free.</div>
+    </div>
+    <div class="grid-item">
+        <img src="images/product1.jpg" alt="">
+           <div class="desc">Keep the sea plastic free.</div>
+    </div>
+    <div class="grid-item">
+        <img src="images/product2.jpg" alt="">
+           <div class="desc">Keep the sea plastic free.</div>
+    </div>
+    <div class="grid-item">
+        <img src="images/product2.jpg" alt="">
+           <div class="desc">Keep the sea plastic free.</div>
+    </div>
+    <div class="grid-item">
+        <img src="images/product4.jpg" alt="">
+           <div class="desc">Keep the sea plastic free.</div>
+    </div>
+</div>
+<footer><h2>Think before you trash it.</h2></footer>
+</body>
+</html>
